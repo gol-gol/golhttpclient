@@ -17,4 +17,6 @@
 * `(req *Request) Head() (*http.Response, error)`
 * `(req *Request) Options() (*http.Response, error)`
 
+* `Unmarshal(spec []byte, req *Request)` to Unmarshal HTTP/1.1 Message Spec text as Bytes into golhttpclient.Request
+
 ---
